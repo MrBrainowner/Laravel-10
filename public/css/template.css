@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #F4F8F7;
+    padding: 10px;
+}
+/* navbar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav:hover{
+    background-color: #e8f0ed;
+}
+.logo{
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 100%;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 100%;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: #121212;
+    height: 100%;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav-list ul li a:hover{
+    text-decoration: underline;
+    color: #3F7E54;
+}
+/* login signup nav */
+.account{
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 100%;
+    align-items: center;
+}
+.account ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.account .sign-up a{
+    color: #F4F8F7;
+    background-color: #3F7E54;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.account .sign-up a:hover{
+    background-color: #3F7E5450;
+    color: #3F7E54;
+}
+.account .btn{
+    padding: 5px 10px;
+}
+.account .btn a:hover{
+    text-decoration: underline;
+    color: #3F7E54;
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 0;
+    justify-content: end;
+}
+.dropdown-toggle{
+    background-color: #3F7E54;
+    border: none;
+}
+.dropdown-toggle:hover{
+    background-color: #3F7E5450;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 40%;
+    background-color: #121212;
+    margin-top: 10px;
+    border-radius: 5px;
+}
