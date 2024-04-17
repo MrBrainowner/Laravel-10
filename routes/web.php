@@ -10,7 +10,7 @@ Route::controller(PagesController::class)->group(function(){
     Route::get('/home', 'home')->name('home');
     Route::get('/about', 'about')->name('about');
     Route::get('/contact', 'contact')->name('contact');
-    Route::get('/products', 'products')->name('products');
+    Route::get('/products', 'products')->name('products')->middleware('auth');
 });
 
 Route::controller(AccountController::class)->group(function(){

@@ -78,3 +78,46 @@ form input:focus{
     border-radius: 5px;
     background-color: #3F7E54;
 }
+/* profile */
+.container-proff {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover; /* Ensure image covers entire space */
+  }
+  .profile-info {
+    margin-bottom: 20px;
+  }
+  .profile-info p {
+    margin-bottom: 10px;
+  }
+  .profile-bio {
+    margin-bottom: 20px;
+  }
+  .profile-bio p {
+    line-height: 1.5;
+  }
+  .profile-skills {
+    margin-bottom: 20px;
+  }
+  .profile-skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .profile-skills li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
